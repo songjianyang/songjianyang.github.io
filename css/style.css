@@ -1074,3 +1074,22 @@ body {
   white-space: pre;
   word-break: normal;
   overflow-wrap: normal; }
+
+/* plain pre/code blocks (Medium-friendly markup) */
+.post .post-content pre {
+  background: #f6f8fa;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 12px 16px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  line-height: 1.5;
+  font-size: 14px; }
+.post .post-content pre code {
+  border: none;
+  padding: 0;
+  color: inherit;
+  word-spacing: normal;
+  white-space: pre;
+  word-break: normal;
+  overflow-wrap: normal; }
