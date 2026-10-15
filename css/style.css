@@ -1061,3 +1061,16 @@ body {
       font-style: normal; }
     body .search-container .modal-content {
       background: white; }
+
+/* wide code blocks: scroll horizontally instead of overflowing */
+.post .post-content .highlight {
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch; }
+.post .post-content .highlight table {
+  width: auto;
+  min-width: 100%; }
+.post .post-content .highlight .code pre {
+  white-space: pre;
+  word-break: normal;
+  overflow-wrap: normal; }
