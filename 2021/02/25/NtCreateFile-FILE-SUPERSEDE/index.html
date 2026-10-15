@@ -12,7 +12,7 @@
 
 
 
-  <meta name="description" content="通过 NtCreateFile 函数达到文件删除的作用"/>
+  <meta name="description" content="Arbitrary File Deletion via NtCreateFile FILE_SUPERSEDE"/>
 
 
 
@@ -35,7 +35,7 @@
 
 <meta name="description" content="在逻辑漏洞的挖掘过程中，文件删除操作是非常重要的一个攻击点，但是人们一般都是关心 DeleteFile 函数。我最近发现了一种比较隐蔽的文件删除方法，那就是通过NtCreateFile。 FILE_SUPERSEDE在 NtCreateFile 函数中设置 FILE_SUPERSEDE 标志位，即可达到文件删除的目的。 123pNtCreateFile(&amp;file_handle, GENE">
 <meta property="og:type" content="article">
-<meta property="og:title" content="通过 NtCreateFile 函数达到文件删除的作用">
+<meta property="og:title" content="Arbitrary File Deletion via NtCreateFile FILE_SUPERSEDE">
 <meta property="og:url" content="http://yoursite.com/2021/02/25/NtCreateFile-FILE-SUPERSEDE/index.html">
 <meta property="og:site_name" content="Boxer">
 <meta property="og:description" content="在逻辑漏洞的挖掘过程中，文件删除操作是非常重要的一个攻击点，但是人们一般都是关心 DeleteFile 函数。我最近发现了一种比较隐蔽的文件删除方法，那就是通过NtCreateFile。 FILE_SUPERSEDE在 NtCreateFile 函数中设置 FILE_SUPERSEDE 标志位，即可达到文件删除的目的。 123pNtCreateFile(&amp;file_handle, GENE">
@@ -77,7 +77,7 @@
 
 
 
-    <title> 通过 NtCreateFile 函数达到文件删除的作用 - Boxer </title>
+    <title> Arbitrary File Deletion via NtCreateFile FILE_SUPERSEDE - Boxer </title>
   <meta name="generator" content="Hexo 4.2.0"></head>
 
   <body>
@@ -143,7 +143,7 @@
     <header class="post-header">
       <h1 class="post-title">
         
-          通过 NtCreateFile 函数达到文件删除的作用
+          Arbitrary File Deletion via NtCreateFile FILE_SUPERSEDE
         
       </h1>
 
